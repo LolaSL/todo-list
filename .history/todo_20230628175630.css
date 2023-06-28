@@ -1,0 +1,203 @@
+html{
+     height: 100%; display: flexbox;
+}
+body {
+    font-family: sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    align-items: center;
+  color: #fff;
+  background:linear-gradient(rgb(51, 138, 244), rgb(38, 57, 67));
+  height: 100vh;  font-size: 2vw;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 960px) and (min-height: 550px) {
+    .body {
+        width: 60%;
+        height: auto;
+        
+    }
+
+}
+
+@media only screen and (max-width: 960px) and (min-height:400px) {
+    .container {
+        width: 60%;
+        height: auto;
+
+    }
+
+}
+
+.container {
+    display: block;
+    width: 600px;
+    margin: 100px auto;
+    border: 5px solid rgb(16, 28, 27);
+    border-radius: 15px;
+    padding: 20px 16px 30px;
+     text-align: center;
+     align-items: center;
+     overflow: hidden;
+}
+
+ul {
+    margin: 5px 0;
+    padding: 0;
+}
+
+li * {
+    float: left;
+}
+
+li,
+h3 {
+    clear: both;
+    list-style: none;
+}
+
+input,
+button {
+    outline: none;
+}
+
+button {
+    background: none;
+    border: 0px;
+    color: rgb(220, 236, 234);
+    font-size: 15px;
+    font-family: sans-serif;
+    cursor: pointer;
+    float: right;
+    margin: 8px auto;
+    font-size: bold;
+}
+
+button:hover {
+    color: black;
+}
+
+#add {
+    float: right;
+    padding: 10px;
+    margin-top: 0;
+    border: 1px solid #223d41;
+}
+
+#add:hover {
+    border-radius: 14px;
+    border: 1px solid #ddd;
+    background-color: #CF2323;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    text-decoration: dashed;
+}
+
+h3 {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+    border-bottom: 2px solid rgb(43, 221, 197);
+    padding: 10px 0;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+}
+p {
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px 0;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+}
+
+input[type="text"] {
+    margin: 1px 0;
+    font-size: 18px;
+    line-height: 18px;
+    height: 18px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 6px;
+    font-family: sans-serif;
+    color: #888;
+}
+
+input[type="text"]:focus {
+    color: black;
+}
+
+label[for='new-task'] {
+    display: block;
+    margin: 0 0 20px;
+}
+
+input#new-task {
+    float: left;
+    width: 487px;
+}
+
+p>button:hover {
+    color: #ffffff;
+}
+
+li {
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+}
+
+li>input[type="checkbox"] {
+    margin: 0 10px;
+    position: relative;
+    top: 15px;
+    transform: scale(1.5);
+}
+
+li>label {
+    font-size: 18px;
+    line-height: 40px;
+    width: 237px;
+    padding: 1px 0 0 11px
+}
+
+li>input[type="text"] {
+    width: 457px;
+}
+
+li>.delete:hover {
+    color: #CF2323;
+}
+
+#completed-tasks label,
+#completed-tasks button {
+    text-decoration: line-through;
+    color: rgb(43, 221, 197);
+}
+
+
+ul li input[type=text] {
+    display: none;
+}
+
+ul li.editMode input[type=text] {
+    display: block;
+}
+
+ul li.editMode label {
+    display: none;
+}
+
+button.checkbox {
+    float: left;
+    float: left;
+}
+
+.header {
+    color: #ffffff;
+    text-align: center;
+}

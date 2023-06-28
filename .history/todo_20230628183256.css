@@ -1,12 +1,11 @@
 html {
   height: 100%;
-  width: 100%;
   margin: 0;
   padding: 0;
 }
 body {
   font-family: sans-serif;
-  background-image: url("./background.png");
+  /* background-image: url("./background.png"); */
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
@@ -192,9 +191,6 @@ button.checkbox {
   body {
     width: 100%;
     height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
   }
   input#new-task {
     float: left;
@@ -209,6 +205,6 @@ button.checkbox {
   }
   input#new-task {
     float: left;
-    width: 475px;
+    width: 380px;
   }
 }

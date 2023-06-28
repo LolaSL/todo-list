@@ -1,4 +1,6 @@
 //to create global variables for "TODO list" elements
+var date = new Date();
+document.getElementById('date').innerHTML = date.toDateString();
 var addButton = document.getElementById('add');//"Add" button in section "Add new task"
 var newTodoTask = document.getElementById('new-task');// input field in section "Add new task"
 var todoListTasks = document.getElementById('uncompleted-tasks');//unfinished-tasks in section "To-do list"
